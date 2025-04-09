@@ -1,21 +1,6 @@
 import "./style.css";
-import { useEffect } from "react";
 
 const Header = () => {
-    useEffect(() => {
-        const handleDownload = () => {
-            window.open("https://nkinah97.github.io/React-Portfolio/Nazar-Kinashchuk.pdf", "_blank");
-        };
-
-        const downloadBtn = document.querySelector(".btn");
-        if (downloadBtn) {
-            downloadBtn.addEventListener("click", handleDownload);
-            return () => {
-                downloadBtn.removeEventListener("click", handleDownload);
-            };
-        }
-    }, []);
-
     return (
         <header className="header">
             <div className="header__wrapper">
@@ -27,9 +12,10 @@ const Header = () => {
                     <p>with passion for learning and creating.</p>
                 </div>
                 <a 
-                    href="/React-Portfolio/Nazar-Kinashchuk.pdf"
+                    href="https://nkinah97.github.io/React-Portfolio/Nazar-Kinashchuk.pdf"
                     className="btn"
-                    download="Nazar-Kinashchuk.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
                 >
                     Download CV
                 </a>
