@@ -26,9 +26,13 @@ const Header = () => {
                 <div className="header__text">
                     <p>with passion for learning and creating.</p>
                 </div>
-                <button className="btn">
+                <a 
+                    href="/React-Portfolio/Nazar-Kinashchuk.pdf"
+                    className="btn"
+                    download="Nazar-Kinashchuk.pdf"
+                >
                     Download CV
-                </button>
+                </a>
             </div>
         </header>
     );
