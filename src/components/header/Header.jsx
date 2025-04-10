@@ -12,7 +12,7 @@ const Header = () => {
                     <p>with passion for learning and creating.</p>
                 </div>
                 <a 
-                    href={process.env.PUBLIC_URL + "/Nazar_Kinashchuk_2025.pdf"}
+                    href="/React-Portfolio/Nazar-Kinachchuk.pdf"
                     className="btn"
                     target="_blank"
                     rel="noopener noreferrer"
