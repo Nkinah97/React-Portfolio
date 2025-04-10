@@ -19,7 +19,6 @@ const projects = [
 		img: project02,
 		images: [project02Big, project02, project03, project04, project05, project06],
 		skills: 'Wordpress, PHP, JavaScript, Scss',
-
 	},
 	{
 		title: 'Dental clinic',
