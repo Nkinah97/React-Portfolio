@@ -12,7 +12,7 @@ const Header = () => {
                     <p>with passion for learning and creating.</p>
                 </div>
                 <a 
-                    href="https://nkinah97.github.io/React-Portfolio/Nazar-Kinashchuk_2024.pdf"
+                    href="https://nkinah97.github.io/React-Portfolio/Nazar-Kinachchuk.pdf"
                     className="btn"
                     target="_blank"
                     rel="noopener noreferrer"
