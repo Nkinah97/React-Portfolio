@@ -12,6 +12,10 @@ import project05 from "./../img/projects/05.jpg";
 
 import project06 from "./../img/projects/06.jpg";
 import project06Big from "./../img/projects/06-big.jpg";
+import stream from "./../img/projects/str.png";
+import stream2 from "./../img/projects/str2.png";
+import stream3 from "./../img/projects/str3.png";
+
 
 const projects = [
 	{
@@ -22,10 +26,19 @@ const projects = [
 	},
 	{
 		title: 'Dental clinic',
+
 		img: project04Big,
 		images: [project04Big, project06Big, project03Big,],
 		skills: 'JavaScript, Scss',
 		gitHubLink: 'https://nkinah97.github.io/My__work-dental-clinic/',
+
+	},
+	{
+		title: 'Streaming page',
+		img: stream,
+		images: [stream,stream2,stream3],
+		skills: 'React, Scss',
+		gitHubLink: 'https://nkinah97.github.io/Stream/',
 
 	},
 
