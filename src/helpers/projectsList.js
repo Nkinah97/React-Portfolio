@@ -12,8 +12,8 @@ import project05 from "./../img/projects/05.jpg";
 
 import project06 from "./../img/projects/06.jpg";
 import project06Big from "./../img/projects/06-big.jpg";
-import stream from "./../img/projects/str.png";
-import stream2 from "./../img/projects/str2.png";
+import stream from "./../img/projects/str1.png";
+import stream2 from "./../img/projects/str2.jpg";
 import stream3 from "./../img/projects/str3.png";
 
 
